@@ -71,19 +71,33 @@
 
 // Question:07-----------------Bakery------------------------
 
-var bakeryItems = ["Cake","applepie","cookies","chips","patties"];
+// var bakeryItems = ["Cake","applepie","cookies","chips","patties"];
 
-var UserInput = prompt("Welcome to Khan's Bakery.What do you want to order sir/ma'am?");
+// var UserInput = prompt("Welcome to Khan's Bakery.What do you want to order sir/ma'am?");
 
-for(var i = 0; i < bakeryItems.length;i++){
-    if(UserInput==bakeryItems[i]){
-        alert(bakeryItems[i],"is avaliable in our bakery")
+// for(var i = 0; i < bakeryItems.length;i++){
+//     if(UserInput==bakeryItems[i]){
+//         alert(bakeryItems[i],"is avaliable in our bakery")
 
-    }
+//     }
 
-}
+// }
 
 // console.log(bakeryItems.indexOf("chips"));
+
+
+
+// Question:08---------------largest number-----------------------------
+
+var Number1 = [24,53,78,91,12]
+
+document.write("<h2>Array items: </h2>",Number1 ,"<br>");
+
+nUm = Number1.slice()
+
+var largestnum = Math.max(nUm)
+document.write("Largest number:  ",largestnum)
+
 
 
 

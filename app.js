@@ -33,11 +33,11 @@
 
 // var counting = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
 
-// document.write("Counting:",counting," . <br>");
+// document.write("<h2>Counting:</h2>",counting," . <br>");
 
 // var reverse = counting.slice().reverse();
-// document.write("Reverse counting:",reverse," . <br>");
-// document.write("Even:  ");
+// document.write("<h2>Reverse counting:</h2>",reverse," . <br>");
+// document.write("<h2>Even:</h2>  ");
 
 // for (var i = 0; i <  counting.length;  i++){
 //     if(counting[i]%2===0){
@@ -47,7 +47,7 @@
 
 // }
 
-// document.write("<br> Odd:  ");
+// document.write("<h2> Odd:</h2>  ");
 // var odd = counting.slice();
 
 // for (var i = 0; i <  odd.length;  i++){
@@ -58,7 +58,7 @@
 
 // }
 
-// document.write("<br> Series: ")
+// document.write("<h2> Series:</h2> ")
 // var series = counting.slice();
 
 // for (var i = 0; i < series.length; i++){
@@ -69,6 +69,21 @@
 
 // }
 
-// Question:07-----------------
+// Question:07-----------------Bakery------------------------
+
+var bakeryItems = ["Cake","applepie","cookies","chips","patties"];
+
+var UserInput = prompt("Welcome to Khan's Bakery.What do you want to order sir/ma'am?");
+
+for(var i = 0; i < bakeryItems.length;i++){
+    if(UserInput==bakeryItems[i]){
+        alert(bakeryItems[i],"is avaliable in our bakery")
+
+    }
+
+}
+
+// console.log(bakeryItems.indexOf("chips"));
+
 
 

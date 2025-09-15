@@ -141,6 +141,50 @@
 
 
 
+// -------------------------------------------Chapter 20-22-----------------------------------------
+
+// Quesrion:01------------------------Full name---------------------------
+
+// var firstName = prompt("Enter your first name");
+// var lastName = prompt("Enter your last name");
+
+// var fullName = firstName+lastName;
+// document.write("Full Name : ",fullName);
+
+// Question:02------------------------Phone model lenght------------------------
+
+// var phoneMOdel = prompt("Enter your favourite phone and model name");
+
+
+// document.write("MY favourite phone is: ",phoneMOdel,"<br>");
+// document.write("Lenght of string: ",phoneMOdel.length)
+
+// Question:03--------------------index of pakistan------------------------------
+
+// var pak = "Pakistan";
+
+// document.write("String: ",pak,"<br>");
+// document.write("Index of 'n':" , pak.indexOf("n"));
+
+// Question:04--------------------last index of ----------------------------------
+
+var word = "Hello World";
+
+document.write("String: ",word,"<br>");
+document.write("Index of 'n':" , word.lastIndexOf("l"));
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

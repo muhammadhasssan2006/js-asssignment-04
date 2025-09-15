@@ -89,14 +89,36 @@
 
 // Question:08---------------largest number-----------------------------
 
-var Number1 = [24,53,78,91,12]
+// var Number1 = [24,53,78,91,12]
 
-document.write("<h2>Array items: </h2>",Number1 ,"<br>");
+// document.write("Array items: ",Number1 ,"<br><br>");
 
-nUm = Number1.slice()
+// nUm = Number1.slice()
 
-var largestnum = Math.max(nUm)
-document.write("Largest number:  ",largestnum)
+// var largestnum = Math.max(...nUm);
+// document.write("largest number :",largestnum,"<br><br>");
+
+// Question:09-----------------Smallest number------------------------------
+
+// var number2 = Number1.slice();
+
+// var smallestNumber = Math.min(...number2);
+// document.write("Array item",smallestNumber,"<br><br>");
+
+// document.write("smallest number :",smallestNumber,"<br>");
+
+// Question:10---------------------Table of 5 to 100----------------------------------
+
+var tableOf5 = 5;
+
+for(i = 1; i<=100; i++){
+    document.write(tableOf5," x ",i," = ",tableOf5*i,"<br>");
+
+}
+
+
+
+
 
 
 

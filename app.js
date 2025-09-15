@@ -1,4 +1,22 @@
 // -----------------------------------chapter 17-20 ---------------------------------------
+// Question:1-------------------empty multidimensional array----------------------------------
+// var emtArray = Array (3);
+// console.log(emtArray);
+
+// Question:2-------------------- multidimensional array------------------------------------
+
+// var multiArry = Array(3);
+// multiArry[0] = Array(0 , 1 , 2 , 3)
+// multiArry[1] = Array(1 , 0 , 1 , 2)
+// multiArry[2] = Array(2 , 1 , 0 , 1)
+
+// // console.log(multiArry);
+// document.write(multiArry[0].join( " "),"<br>")
+// document.write(multiArry[1].join( " "),"<br>")
+// document.write(multiArry[2].join( " "),"<br>")
+
+
+
 
 // Qustion:03----------------------------------
 
@@ -71,19 +89,24 @@
 
 // Question:07-----------------Bakery------------------------
 
-// var bakeryItems = ["Cake","applepie","cookies","chips","patties"];
+// var bakeryItems = ["cake","applepie","cookies","chips","patties"];
 
-// var UserInput = prompt("Welcome to Khan's Bakery.What do you want to order sir/ma'am?");
+// var UserInput = prompt("Welcome to Khan's Bakery. What do you want to order sir/ma'am?");
 
-// for(var i = 0; i < bakeryItems.length;i++){
-//     if(UserInput==bakeryItems[i]){
-//         alert(bakeryItems[i],"is avaliable in our bakery")
+// var matchFound = "no";
 
+// for (var i = 0; i < bakeryItems.length; i++) {
+//     if (UserInput.toLowerCase() === bakeryItems[i].toLowerCase()) { 
+//         matchFound = "yes";
+//         console.log(bakeryItems[i], "is available at index", i, "in our bakery");
+//         break; 
 //     }
-
 // }
 
-// console.log(bakeryItems.indexOf("chips"));
+// if (matchFound === "no") {
+//     console.log(UserInput, "is not available in our bakery");
+// }
+
 
 
 
@@ -109,12 +132,12 @@
 
 // Question:10---------------------Table of 5 to 100----------------------------------
 
-var tableOf5 = 5;
+// var tableOf5 = 5;
 
-for(i = 1; i<=100; i++){
-    document.write(tableOf5," x ",i," = ",tableOf5*i,"<br>");
+// for(i = 1; i<=100; i++){
+//     document.write(tableOf5," x ",i," = ",tableOf5*i,"<br>");
 
-}
+// }
 
 
 
